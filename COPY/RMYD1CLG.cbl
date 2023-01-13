@@ -7,10 +7,10 @@
                  10 DFH-TIPO-PRESTAMO          PIC  X(015).
                  10 DFH-GARANTIA               PIC  X(015).
                  10 DFH-NOMBRE-CUENTA          PIC  X(060).
-              08 DFH-DESDE-AQUI.
+              07 DFH-DESDE-AQUI.
                  10 DFH-MONTO                  PIC S9(011)V99.
                  10 DFH-FECHA-CONCESION        PIC  9(008).
-                 10 DFH-SITJURIDICA            PIC  X(015).             
+                 10 DFH-SITJURIDICA            PIC  X(015).
                  10 DFH-TASA-INTERES           PIC S9(005)V9(005).
                  10 DFH-FECHA-VENC             PIC  9(008).
                  10 DFH-TASA-COMISION          PIC S9(005)V9(005).

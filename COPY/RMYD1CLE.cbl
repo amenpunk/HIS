@@ -1,5 +1,5 @@
       *--------------------------------------------------------------*
-      *  OBJETO     : HACER LA CONSULTA DE PRESTAMOS CUOTA NIVELADA  *  RN19PMHE
+      *  OBJETO     : HACER LA CONSULTA DE PRESTAMOS DOLARES         *  RN19PMHE
       *--------------------------------------------------------------*
        01  DFHCOMMAREA.
            05 DFH-DATOS.
@@ -13,7 +13,7 @@
               07 DFH-DESDE-AQUI.
                  10 DFH-MONTO                  PIC S9(011)V99.
                  10 DFH-FECHA-CONCESION        PIC  9(008).
-                 10 DFH-SITJURIDICA            PIC  X(015).
+                 10 DFH-SITJURIDICA            PIC  X(015).             BAQ02410
                  10 DFH-TASA-INTERES           PIC S9(005)V9(005).
                  10 DFH-FECHA-VENC             PIC  9(008).
                  10 DFH-TASA-COMISION          PIC S9(005)V9(005).
